@@ -35,6 +35,10 @@ public class WebServicesController {
 	public String getname(){
 		return "hiii nilesh";
 	}
+	@RequestMapping("/nilesh3")
+	public String getname3(){
+		return "hiii nilesh";
+	}
 	
 	@PostMapping("customerData")
 	public String savedata(@RequestBody Customer customer){
